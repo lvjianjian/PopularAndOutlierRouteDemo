@@ -1,0 +1,78 @@
+.left-menu{   position: absolute; 
+  width: 215px;}
+  .page-sidebar{ height:800px;}
+.box-10{background:#ffffff; margin: 0 20px 20px 20px;}
+.box-10 dl dt{font-family:'微软雅黑'; font-size: 16px;height: 40px; line-height: 40px; border-bottom:1px solid #d5d7da; padding-left: 20px; color:#5293ed; font-weight:normal;}
+.box-10 dl dd{padding:0 0 10px 0;}
+.box-10 li{list-style: none;}
+
+/*最新活动*/
+.new-act{padding:0; height:150px; overflow:hidden; }
+.new-act ul{padding:0;}
+.new-act li{ margin:0px 20px; height:30px; line-height:30px; border-bottom:1px dotted #cacbcb; overflow:hidden;_zoom:1;}
+.new-act li a{color:#2e2e2e; font-family:'宋体'; font-size: 12px;}
+.new-act li a:hover{color:#5293ed; text-decoration:none;}
+.new-act li span{ display: inline-block;float:right; color:#5293ed;}
+.new-act li.last{ border-bottom:none;}
+
+/*快捷菜单*/
+.shortcut-menu ul{ overflow:hidden;_zoom:1;}
+.shortcut-menu ul li{ width:260px; height:75px; float:left; margin:15px 15px 0 0;}
+.shortcut-menu ul li a{ display:block;width:260px; height:75px; padding:20px 0 0 120px; background:none; color:#000; font-family:'微软雅黑'; font-size: 18px;}
+.shortcut-menu ul li a:hover{color:#000; text-decoration:none;}
+.shortcut-menu ul li.roleManage a{background:url(/images/roleManage.gif) no-repeat;}
+.shortcut-menu ul li.systemInformationOfUser a{background:url(/images/systemInformationOfUser.gif) no-repeat;}
+.shortcut-menu ul li.inspectionOfUser a{background:url(/images/inspectionOfUser.gif) no-repeat;}
+.shortcut-menu ul li.networkInformation a{background:url(/images/networkInformation.gif) no-repeat;}
+.shortcut-menu ul li.problemInformation a{background:url(/images/problemInformation.gif) no-repeat;}
+.shortcut-menu ul li.dataDownload a{background:url(/images/dataDownload.gif) no-repeat;}
+.shortcut-menu ul li.dailyRecord a{background:url(/images/dailyRecord.gif) no-repeat;}
+.shortcut-menu ul li.fieldManager a{background:url(/images/fieldManager.gif) no-repeat;}
+.shortcut-menu ul li.FAQ a{background:url(/images/FAQ.gif) no-repeat;}
+.shortcut-menu ul li.individualInformation a{background:url(/images/individualInformation.gif) no-repeat;}
+
+.page-content .page-breadcrumb.breadcrumb > li > a{ color:#515151;}
+.page-content .page-breadcrumb.breadcrumb{border-top:0;border-bottom:0;background-color:none;}
+.breadcrumb{background:none;}
+.portlet > .portlet-title > .caption {
+ font-family:'微软雅黑'; font-size: 16px; color:#5293ed;
+}
+.portlet > .portlet-title {
+  background-color: #fff;
+  border-bottom:1px solid #eeeeee;
+}
+.page-content{padding: 0px 20px 20px 20px;}
+.pt-btn{ float:right; width:200px;}
+.pt-btn .btn-success {
+  color: #3cc051;
+  background: none;
+  border:0;
+  font-family:'微软雅黑'; font-size: 12px;
+  margin-top:-5px;
+}
+.p-b .btn-info {
+  color: #3cc051;
+  background-color: #fff;
+  border:none;
+}
+.p-c .form-actions{background-color: #fff;}
+.p-c .btn{display:block; margin-left:25%; width:250px;}
+
+.p-1 .btn{ padding:3px 12px; font-size:12px;}
+.page-sidebar-menu > li > ul.sub-menu > li.selected > a{ color:#78fee3;}
+
+.p-2 .navbar-btn{ padding-left:25%; overflow:hidden;_zoom:1;}
+.p-2 .navbar-btn .btn{ float:left; margin-right:10px;}
+
+.carousel-indicators{bottom:0;}
+
+.p-3 .ztree{overflow:auto; border:1px solid #ddd; padding-bottom:10px;}
+.p-3 .col-md-2{ width:20%; padding-right: 15px;padding-left:15px;}
+.p-3 .col-md-10{ width:80%;padding-right: 15px; padding-left:0;}
+
+.form-group{ overflow:hidden; margin-top:15px; margin-bottom:0;}
+
+.page-content .page-breadcrumb.breadcrumb{ margin-top:0; margin-bottom:5px;}
+.form-inline .form-control{ margin:0 5px;}
+
+.slider{ margin-top:3px;}

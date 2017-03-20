@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Qunee Graph Editor V1.8</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- build:css libs/graph.editor/graph.editor.css -->
+  <link rel="stylesheet" href="css/graph.editor.css"/>
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- endbuild -->
+</head>
+<body class="layout">
+<!--[if lt IE 9]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
+<!--<div class="navbar navbar-fixed-top">-->
+<!--</div>-->
+<div id="editor" class="graph-editor" data-options="region:'center'"></div>
+<footer data-options="region:'south', height: '30'" class="footer">
+  Copyright © 2014 上海酷利软件有限公司. Tel: 021-62593373 Email: <span class="strong">support#qunee.com</span>
+</footer>
+<!-- build:js libs/js.js -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<!-- endbuild -->
+
+<script src="js/qunee-min.js"></script>
+<!--<script src="./qunee-min.js"></script>-->
+<!-- build:js libs/graph.editor/graph.editor.js -->
+<script src="js/JSONSerializer.js"></script>
+<script src="js/Exportpane.js"></script>
+<script src="js/Toolbar.js"></script>
+<script src="js/PopupMenu.js"></script>
+<script src="js/graph.editor.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/main.js -->
+<script src="js/graphs.js"></script>
+<script src="js/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

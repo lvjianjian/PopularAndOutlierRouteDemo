@@ -1,0 +1,12 @@
+.idea/
+lib/
+META-INF/
+out/
+src/test/
+target/
+*.iml
+*.txt
+trie/
+transfer_matrix/
+odpairwithroute/
+referenceRoutes/
