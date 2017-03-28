@@ -180,62 +180,62 @@
 
     });
 
-    var polyline1 = new AMap.Polyline({
-        //设置线覆盖物路径
-        strokeColor: "#3366FF", //线颜色
-        strokeOpacity: 1,       //线透明度
-        strokeWeight: 5,        //线宽
-        strokeStyle: "solid",   //线样式
-        strokeDasharray: [10, 5] //补充线样式
-    });
+//    var polyline1 = new AMap.Polyline({
+//        //设置线覆盖物路径
+//        strokeColor: "#3366FF", //线颜色
+//        strokeOpacity: 1,       //线透明度
+//        strokeWeight: 5,        //线宽
+//        strokeStyle: "solid",   //线样式
+//        strokeDasharray: [10, 5] //补充线样式
+//    });
+//
+//    var polyline2 = new AMap.Polyline({
+//        //设置线覆盖物路径
+//        strokeColor: "#F33", //线颜色
+//        strokeOpacity: 1,       //线透明度
+//        strokeWeight: 5,        //线宽
+//        strokeStyle: "solid",   //线样式
+//        strokeDasharray: [10, 5] //补充线样式
+//    });
+//
+//    var polyline3 = new AMap.Polyline({
+//        //设置线覆盖物路径
+//        strokeColor: "#FF33FF", //线颜色
+//        strokeOpacity: 1,       //线透明度
+//        strokeWeight: 5,        //线宽
+//        strokeStyle: "solid",   //线样式
+//        strokeDasharray: [10, 5] //补充线样式
+//    });
 
-    var polyline2 = new AMap.Polyline({
-        //设置线覆盖物路径
-        strokeColor: "#F33", //线颜色
-        strokeOpacity: 1,       //线透明度
-        strokeWeight: 5,        //线宽
-        strokeStyle: "solid",   //线样式
-        strokeDasharray: [10, 5] //补充线样式
-    });
 
-    var polyline3 = new AMap.Polyline({
-        //设置线覆盖物路径
-        strokeColor: "#FF33FF", //线颜色
-        strokeOpacity: 1,       //线透明度
-        strokeWeight: 5,        //线宽
-        strokeStyle: "solid",   //线样式
-        strokeDasharray: [10, 5] //补充线样式
-    });
-
-
-
+    //dashed
 
     var blueMarker = new AMap.Marker({
         map: map,
-        icon: "http://localhost:8080/images/icon/Blue.png",
+        icon: "/images/icon/Blue.png",
     });
 
     var redMarker = new AMap.Marker({
         map: map,
-        icon: "http://localhost:8080/images/icon/Red.png",
+        icon: "/images/icon/Red.png",
     });
 
-    function getPolyline(color,width) {
+    function getPolyline(color,width,style) {
         return polyline1 = new AMap.Polyline({
             //设置线覆盖物路径
             strokeColor: color, //线颜色
             strokeOpacity: 1,       //线透明度
             strokeWeight: width,        //线宽
-            strokeStyle: "solid",   //线样式
+            strokeStyle: style,   //线样式
             strokeDasharray: [10, 5] //补充线样式
         });
     }
 
-    var polyline1 = getPolyline("#3366FF",10)
+    var polyline1 = getPolyline("#3366FF",15,"solid")
 
-    var polyline2 = getPolyline("#6495ED",6)
+    var polyline2 = getPolyline("#6495ED",6,"dashed")
 
-    var polyline3 = getPolyline("#FF33FF",3)
+    var polyline3 = getPolyline("#FF33FF",3,"solid")
 
     function randomPolyline() {
         return getPolyline('#' + ('00000' + (Math.random() * 0x1000000 << 0).toString(16)).slice(-6))
